@@ -17,6 +17,9 @@
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
   <script src="particles.js"></script>
 
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
   <!-- Fonts -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap');
@@ -32,13 +35,13 @@
   <div class="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4">
 
     <!-- Header -->
-    <header class="mb-8">
+    <header class="mb-8 animate__animated animate__fadeInUp animate__slow">
       <h1 class="text-6xl sm:text-7xl font-extrabold drop-shadow-[0_5px_15px_rgba(0,0,255,0.5)] font-[Orbitron] tracking-wide text-white">
         Folio<span class="text-blue-600">Forge</span>
       </h1>
 
       <div class="mt-4 flex justify-center">
-        <svg class="w-16 h-16 text-blue-500 opacity-80" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <svg class="w-16 h-16 text-blue-500 opacity-80 animate-pulse" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M12 3v3m0 12v3m9-9h-3M6 12H3m15.364-6.364l-2.121 2.121M8.757 15.243l-2.121 2.121m12.728 0l-2.121-2.121M8.757 8.757L6.636 6.636M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9z" />
         </svg>
@@ -46,13 +49,13 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="animate__animated animate__zoomIn animate__delay-1s">
       <p class="text-xl sm:text-2xl mb-10 text-gray-400 italic drop-shadow-md max-w-xl">
         Where <span class="text-blue-400 font-semibold">standout portfolios</span> are forged.
       </p>
 
       <a href="home.html"
-        class="transition-all duration-500 px-10 py-4 bg-gradient-to-r from-blue-700 to-blue-500 hover:from-blue-600 hover:to-blue-400 text-white font-semibold text-lg tracking-wide rounded-full shadow-xl hover:shadow-2xl">
+        class="transition-all duration-500 px-10 py-4 bg-gradient-to-r from-blue-700 to-blue-500 hover:from-blue-600 hover:to-blue-400 text-white font-semibold text-lg tracking-wide rounded-full shadow-xl hover:shadow-2xl animate__animated animate__fadeInUp animate__delay-2s">
         Project Showcase
       </a>
     </main>
