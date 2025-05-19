@@ -54,3 +54,36 @@ a:hover p {
   color: #38bdf8; /* Tailwind's sky-400 */
   text-shadow: 0 1px 4px rgba(56, 189, 248, 0.5);
 }
+
+/* Form Styling for inquiries.html */
+input,
+textarea {
+  background-color: #1e293b; /* Tailwind's slate-800 */
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8; /* Tailwind's slate-400 */
+}
+
+button[type="submit"] {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8; /* Tailwind's blue-700 */
+}
+
